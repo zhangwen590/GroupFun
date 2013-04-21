@@ -2,7 +2,9 @@ package com.groupfun;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.graphics.Color;
 import android.view.Menu;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
@@ -10,6 +12,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        TextView textView = (TextView) findViewById(R.id.text);
+        textView.setTextColor(Color.parseColor("red"));
     }
 
 
