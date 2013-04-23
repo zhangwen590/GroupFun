@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
-
+//test 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
